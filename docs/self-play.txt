@@ -1,0 +1,20 @@
+$ python -m tictactoe self-play
+
+Two perfect players walk onto a board...
+X -> cell 5 (2,271 search calls)
+O -> cell 1 (643 search calls)
+X -> cell 3 (511 search calls)
+O -> cell 7 (313 search calls)
+X -> cell 4 (98 search calls)
+O -> cell 6 (39 search calls)
+X -> cell 9 (15 search calls)
+O -> cell 2 (4 search calls)
+X -> cell 8 (2 search calls)
+
+ O | O | X
+---+---+---
+ X | X | O
+---+---+---
+ O | X | X
+
+A draw. Naturally.
