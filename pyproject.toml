@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jj-tic-tac-toe"
+version = "1.0.0"
+description = "A small game with an exhaustively checked opponent and visible search decisions."
+requires-python = ">=3.10"
+authors = [{name = "Jirapas Wongtreenatrkoon"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+dependencies = []
+
+[project.scripts]
+tic-tac-toe = "tictactoe.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,2 @@
+# Only needed to regenerate the checked-in PNG diagrams.
+Pillow>=10
